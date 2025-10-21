@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: olive;" align="center">
+    <h1 align="center">STUDENT REGISTRATION FORM</h1><br><br>
+    <form > 
+      <label for="fname">Fist Name:</label>
+      <input type="text" id="fname" name="fname" required />
+      <label for="lname">Last Name:</label> 
+      <input type="text" id="lname" name="lname" required /><br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Christianjohn@gmail.com"
+      />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required /><br /><br />
+      <label for="homepage">Homepage:</label>
+      <input type="url" id="homepage" name="homepage" placeholder="Url" />
+      <label for="pw">Password:</label>
+      <input type="password" id="pw" name="pw" required /><br /><br />
+      <label for="bithday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday" required />
+      <h1>Choose your religion:</h1>
+      <label for="chr">Christianity</label>
+      <input type="checkbox" id="chr" name="rel" value="chr">
+      <label for="Isl">Islamic</label>
+      <input type="checkbox" id="Isl" name="rel" value="Rel"><br><br>
+      <label>Gender:</label><br />
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="Gender" value="male">
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="Gender" value="female">
+      <label for="nonbinary">Non-binary</label>
+      <input
+        type="radio"
+        id="nonbinary"
+        name="Gender"
+        value="nonbinary">
+      <label for="prefer-not-to-say">Prefer not to say</label>
+      <input
+        type="radio"
+        id="prefer-not-to-say"
+        name="Gender"
+        value="prefer-not-to-say"
+      /><br /><br />
+      <label for="cl">Choose your color:</label>
+      <input type="color" id="cl" name="colors" value="cl" /><br /><br />
+      <label for="phone">Enter phone number:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="01-2364-4328"
+      /><br /><br />
+      <label for="wk">Week of registration:</label>
+      <input type="week" id="wk" name="week" /><br /><br />
+      <label for="Fu">Choose a file:</label>
+      <input type="file" id="Fu" name="FileU" /><br /><br />
+      <label for="img">Choose an image:</label>
+      <input type="image" id="img" name="ImageU" src="images/ba1188be487d11d1c3addf54841f3721.jpg" width="15%" height="20%"><br /><br />
+      <input type="text" name="username" placeholder="Enter your username" />
+      <input type="hidden" name="user-id" value="12345" />
+      <input type="hidden" name="csrf_token" value="abcdefg12345" /><br /><br />
+      <label for="vol">Volume of interest{between 0 and 100}:</label>
+      <input
+        type="range"
+        id="vol"
+        name="volume"
+        min="0"
+        max="100"
+      /><br /><br />
+      <label for="quan">Quantity (between 1 and 10):</label>
+      <input
+        type="number"
+        id="quan"
+        name="quantity"
+        min="1"
+        max="10"
+      /><br /><br />
+      <input type="submit" value="submit">
+      <input type="submit" value="Register" /><br />
+    </form>
+  </body>
+</html>
