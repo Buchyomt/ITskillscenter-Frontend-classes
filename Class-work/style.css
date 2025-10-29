@@ -1,0 +1,28 @@
+body div {
+  background-color: silver;
+  align-content: center;
+  align-items: center;
+  width: 80px;
+  height: fit-content;
+}
+
+h1 {
+  color: black;
+  background-color: aqua;
+  text-align: center;
+}
+p {
+  font-weight: bold;
+  font-style: normal;
+}
+
+hr {
+  border: 1px solid rgb(17, 16, 16);
+}
+h2 {
+  background-color: aqua;
+  color: black;
+}
+ul {
+  font-weight: bold;
+}
